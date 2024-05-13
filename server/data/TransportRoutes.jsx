@@ -10,7 +10,7 @@ const transportRoutes = [
       "San Ysidro",
       "Pedro Loyola",
       "El Refugio",
-      "Universidad",
+      "Valle de las Palmas (UABC)",
     ],
     mapRoute: [
       { lat: 32.5405, lon: -117.0319 },

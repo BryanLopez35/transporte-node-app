@@ -4,6 +4,9 @@ const path = require("path");
 const express = require("express");
 const app = express();
 
+
+
+
 // Configurar Express para servir archivos estáticos desde la carpeta 'client/build'
 app.use(express.static(path.join(__dirname, "../pwa-transporte/build")));
 

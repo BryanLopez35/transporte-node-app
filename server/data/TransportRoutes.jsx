@@ -13,11 +13,9 @@ const transportRoutes = [
       "Valle de las Palmas (UABC)",
     ],
     mapRoute: [
-      { lat: 32.5405, lon: -117.0319 },
-      { lat: 32.5502, lon: -117.0274 },
-      { lat: 32.5601, lon: -117.0231 },
-      { lat: 32.57, lon: -117.0188 },
-      { lat: 32.58, lon: -117.0146 },
+      { lat: 32.5149, lon: -117.0382 },
+      { lat: 32.5294, lon: -117.0286 }
+
     ],
     schedule: "5:00 a.m. a 10:00 p.m.",
     normalPrice: "16 MXN",

@@ -12,7 +12,7 @@ const transportRoutes = [
       "El Refugio",
       "Valle de las Palmas (UABC)",
     ],
-    mapRoute:[
+    mapRoute: [
       { lat: 32.49408, lon: -116.850258 },
       { lat: 32.497641, lon: -116.861599 },
       { lat: 32.497872, lon: -116.861603 },
@@ -115,11 +115,12 @@ const transportRoutes = [
       { lat: 32.538152, lon: -117.026097 },
       { lat: 32.539508, lon: -117.025908 },
       { lat: 32.540921, lon: -117.025305 }
-    ],    
+    ],
     schedule: "5:00 a.m. a 10:00 p.m.",
     normalPrice: "16 MXN",
     preferredPrice: "7 MXN",
     img: "https://aeropuertodetijuana.com/wp-content/uploads/2021/08/Transporte-Publico-al-Aeropuerto-de-Tijuana.jpg",
+    ratings: [], // Campo para almacenar calificaciones de usuarios
   },
   {
     routeNumber: 2,
@@ -151,6 +152,7 @@ const transportRoutes = [
     normalPrice: "16 MXN",
     preferredPrice: "7 MXN",
     img: "https://aeropuertodetijuana.com/wp-content/uploads/2021/08/Transporte-Publico-al-Aeropuerto-de-Tijuana.jpg",
+    ratings: [], // Campo para almacenar calificaciones de usuarios
   },
   {
     routeNumber: 20,
@@ -182,6 +184,7 @@ const transportRoutes = [
     normalPrice: "16 MXN",
     preferredPrice: "7 MXN",
     img: "https://www.elsoldetijuana.com.mx/local/tytpk3-taxis-rojos/ALTERNATES/LANDSCAPE_1140/TAXIS%20ROJOS",
+    ratings: [], // Campo para almacenar calificaciones de usuarios
   },
   {
     routeNumber: 30,
@@ -213,6 +216,7 @@ const transportRoutes = [
     normalPrice: "16 MXN",
     preferredPrice: "7 MXN",
     img: "https://lasillarota.com/u/fotografias/m/2023/12/27/f960x540-531856_605931_5050.jpeg",
+    ratings: [], // Campo para almacenar calificaciones de usuarios
   },
   {
     routeNumber: 40,
@@ -244,6 +248,7 @@ const transportRoutes = [
     normalPrice: "16 MXN",
     preferredPrice: "7 MXN",
     img: "https://lasillarota.com/u/fotografias/m/2023/12/27/f960x540-531856_605931_5050.jpeg",
+    ratings: [], // Campo para almacenar calificaciones de usuarios
   },
   {
     routeNumber: 50,
@@ -275,6 +280,7 @@ const transportRoutes = [
     normalPrice: "16 MXN",
     preferredPrice: "7 MXN",
     img: "https://lasillarota.com/u/fotografias/m/2023/12/27/f960x540-531856_605931_5050.jpeg",
+    ratings: [], // Campo para almacenar calificaciones de usuarios
   },
 ];
 

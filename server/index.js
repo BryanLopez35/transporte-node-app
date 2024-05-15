@@ -46,6 +46,19 @@ app.get("/api/routes/:routeId", (req, res) => {
   }
 });
 
+// Endpoint para calificar una ruta específica
+app.post("/api/routes/:routeId/rate", (req, res) => {
+  const routeId = req.params.routeId;
+  const rating = req.body.rating; // Suponiendo que recibes la calificación en el cuerpo de la solicitud
+  const route = transportRoutes.find((route) => route.routeNumber === parseInt(routeId));
+  if (!route) {
+    res.status(404).json({ error: "Ruta no encontrada" });
+  } else {
+    route.ratings.push(rating); // Almacenar la calificación en el arreglo de calificaciones de la ruta
+    res.json({ message: "Calificación agregada exitosamente" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
